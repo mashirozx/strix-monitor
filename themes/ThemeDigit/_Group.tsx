@@ -16,8 +16,8 @@ const Group: FunctionComponent<GroupProps> = ({
   logo,
 }) => {
   return (
-    <div className="flex flex-col">
-      <div className="flex flex-row items-start">
+    <div className="flex w-1/3 flex-col">
+      <div className="flex flex-row items-start justify-between">
         <div className="flex flex-col gap-6">
           {normaFactors.map((factor, index) => (
             <NormalFactor key={index} {...factor} />

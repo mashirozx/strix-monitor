@@ -46,7 +46,7 @@ const ThemeDigit: FunctionComponent = () => {
 
   return (
     <>
-      <div className="flex flex-row">
+      <div className="flex flex-row gap-3">
         {/* CPU */}
         <Group
           normaFactors={[
