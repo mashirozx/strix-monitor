@@ -5,6 +5,7 @@ import NvidiaRtxSVG from '@/assets/gpu/nvidia-rtx.svg';
 import RogSVG from '@/assets/mb/rog.svg';
 import { useWs } from '@/hooks/useWs';
 import { keepDigit, keepIntNumberStringDigit } from '@/utils/math';
+import { moment } from '@/utils/moment';
 import { useMemo, type FunctionComponent } from 'react';
 import Group from './_Group';
 import PercentageUnit from './_PercentageUnit';
@@ -50,6 +51,11 @@ const ThemeDigit: FunctionComponent = () => {
     };
   }, [data?.SFREEMEM.value, data?.SUSEDMEM.value]);
 
+  const clock = useMemo(
+    () => moment(data?.STIME.value, 'hh:mm:ss'),
+    [data?.STIME.value],
+  );
+
   return (
     <>
       <div className="flex h-screen flex-row gap-3 bg-black p-3">
@@ -64,7 +70,7 @@ const ThemeDigit: FunctionComponent = () => {
             {
               number: data?.SCPUUTI.value,
               unit: <PercentageUnit />,
-              label: 'CPU Utilization',
+              label: 'CPU Usage',
             },
             {
               number: data?.FCPU.value,
@@ -132,6 +138,11 @@ const ThemeDigit: FunctionComponent = () => {
         <Group
           normaFactors={[
             {
+              number: clock.format('h:mm'),
+              unit: clock.format('A'),
+              label: 'Clock',
+            },
+            {
               number:
                 data?.SRTSSFPS.value === '0' ? 'N/A' : data?.SRTSSFPS.value,
               label: 'RTSS FPS',
@@ -139,7 +150,7 @@ const ThemeDigit: FunctionComponent = () => {
             {
               number: data?.SMEMUTI.value,
               unit: <PercentageUnit />,
-              label: 'MEM Utilization',
+              label: 'MEM Usage',
               total: `${usedMemory.used} / ${usedMemory.total} Gb`,
             },
             {
@@ -152,10 +163,10 @@ const ThemeDigit: FunctionComponent = () => {
               unit: 'Kb/s',
               label: 'Download Speed',
             },
-            {
-              number: data?.SPRIIPADDR.value,
-              label: 'Intranet IP',
-            },
+            // {
+            //   number: data?.SPRIIPADDR.value,
+            //   label: 'Intranet IP',
+            // },
           ]}
           specialFactor={{
             number: data?.TMOBO.value,

@@ -5,7 +5,12 @@ import type { FunctionComponent } from 'react';
 const TemperatureUnit: FunctionComponent = () => {
   return (
     <>
-      <span className={clsx('italic', FontTheDisplaySt.className)}>°</span>C
+      <span
+        className={clsx('align-text-top italic', FontTheDisplaySt.className)}
+      >
+        °
+      </span>
+      C
     </>
   );
 };
