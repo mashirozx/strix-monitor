@@ -36,6 +36,11 @@ export const FontTektur = localFont({
   variable: '--font-unit',
 });
 
+export const FontTheDisplaySt = localFont({
+  src: '../assets/fonts/The-Display-St.ttf',
+  variable: '--font-the-display-st',
+});
+
 export const FontSegment = localFont({
   src: '../assets/fonts/Seven-Segment.ttf',
   variable: '--font-segment',
@@ -44,4 +49,9 @@ export const FontSegment = localFont({
 export const FontDigital7Mono = localFont({
   src: '../assets/fonts/Digital-7-Mono.ttf',
   variable: '--font-digital-7-mono',
+});
+
+export const FontLCD = localFont({
+  src: '../assets/fonts/LCD-Bold.ttf',
+  variable: '--font-lcd',
 });

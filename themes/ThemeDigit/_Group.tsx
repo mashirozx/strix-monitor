@@ -25,7 +25,7 @@ const Group: FunctionComponent<GroupProps> = ({
         </div>
         {logo}
       </div>
-      <div className="">
+      <div className="flex justify-center">
         <SpecialFactor {...specialFactor} />
       </div>
     </div>

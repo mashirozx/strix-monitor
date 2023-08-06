@@ -7,6 +7,7 @@ import { useWs } from '@/hooks/useWs';
 import { keepDigit, keepIntNumberStringDigit } from '@/utils/math';
 import { useMemo, type FunctionComponent } from 'react';
 import Group from './_Group';
+import TemperatureUnit from './_TemperatureUnit';
 
 const ThemeDigit: FunctionComponent = () => {
   const { data } = useWs();
@@ -75,13 +76,12 @@ const ThemeDigit: FunctionComponent = () => {
               unit: 'W',
               label: 'CPU Power',
             },
-            {
-              number: data?.TCPU.value,
-              unit: '°C',
-              label: 'CPU Temperature',
-            },
           ]}
-          specialFactor={{}}
+          specialFactor={{
+            number: data?.TCPU.value,
+            unit: <TemperatureUnit />,
+            label: '13th Gen Intel(R) Core(TM) i9-13900K',
+          }}
           logo={<IntelCoreI9SVG className="w-56" />}
         />
 
@@ -92,11 +92,6 @@ const ThemeDigit: FunctionComponent = () => {
               number: gpuClock,
               unit: 'GHz',
               label: data?.SGPU1CLK.label,
-            },
-            {
-              number: keepIntNumberStringDigit(data?.PGPU1.value),
-              unit: 'W',
-              label: 'GPU Power',
             },
             {
               number: keepIntNumberStringDigit(data?.SGPU1UTI.value, 1),
@@ -115,12 +110,16 @@ const ThemeDigit: FunctionComponent = () => {
               total: `${gpuMemoryUsage.used} / 24 Gb`,
             },
             {
-              number: data?.TGPU1.value,
-              unit: '°C',
-              label: 'GPU Temperature',
+              number: keepIntNumberStringDigit(data?.PGPU1.value),
+              unit: 'W',
+              label: 'GPU Power',
             },
           ]}
-          specialFactor={{}}
+          specialFactor={{
+            number: data?.TGPU1.value,
+            unit: <TemperatureUnit />,
+            label: 'ROG Strix RTX4090 24G Gaming',
+          }}
           logo={<NvidiaRtxSVG className="w-56" />}
         />
 
@@ -151,13 +150,12 @@ const ThemeDigit: FunctionComponent = () => {
               number: data?.SPRIIPADDR.value,
               label: 'Intranet IP',
             },
-            {
-              number: data?.TMOBO.value,
-              unit: '°C',
-              label: 'MB Temperature',
-            },
           ]}
-          specialFactor={{}}
+          specialFactor={{
+            number: data?.TMOBO.value,
+            unit: <TemperatureUnit />,
+            label: 'ROG Strix Z790-A Gaming WiFi',
+          }}
           logo={<RogSVG className="w-56" />}
         />
       </div>

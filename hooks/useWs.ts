@@ -17,6 +17,7 @@ export const useWs = () => {
       logger.info(flag, 'received', {
         local: moment().format('HH:mm:ss'),
         sensor: data.STIME.value,
+        data,
       });
       setDate(data);
     };

@@ -30,7 +30,7 @@ const NormalFactor: FunctionComponent<NormalFactorProps> = ({
         <div className="flex flex-col">
           <span
             className={clsx(
-              'font-regular text-2xl font-medium',
+              'font-regular mt-0.5 text-2xl font-medium',
               FontTektur.className,
             )}
           >
@@ -38,7 +38,7 @@ const NormalFactor: FunctionComponent<NormalFactorProps> = ({
           </span>
           <span
             className={clsx(
-              'font-regular text-1xl font-medium',
+              'font-regular text-1xl -mt-0.5 font-medium',
               FontTektur.className,
             )}
           >
