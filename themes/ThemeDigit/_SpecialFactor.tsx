@@ -1,4 +1,4 @@
-import { FontLCD, FontTektur } from '@/styles/fonts';
+import { FontIceland, FontLCD } from '@/styles/fonts';
 import { nullableString } from '@/utils/nullableString';
 import clsx from 'clsx';
 import type { FunctionComponent, ReactNode } from 'react';
@@ -28,7 +28,7 @@ const SpecialFactor: FunctionComponent<SpecialFactorProps> = ({
           {unit}
         </span>
       </div>
-      <span className={clsx('ml-2 font-sans text-2xl', FontTektur.className)}>
+      <span className={clsx('ml-2 font-sans text-2xl', FontIceland.className)}>
         {label}
       </span>
     </div>

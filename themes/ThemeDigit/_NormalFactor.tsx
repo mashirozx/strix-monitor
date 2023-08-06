@@ -1,4 +1,4 @@
-import { FontDigital7Mono, FontTektur } from '@/styles/fonts';
+import { FontDigital7Mono, FontIceland, FontTektur } from '@/styles/fonts';
 import { nullableString } from '@/utils/nullableString';
 import clsx from 'clsx';
 import type { FunctionComponent, ReactNode } from 'react';
@@ -46,7 +46,7 @@ const NormalFactor: FunctionComponent<NormalFactorProps> = ({
           </span>
         </div>
       </div>
-      <span className={clsx('ml-2 font-sans text-2xl', FontTektur.className)}>
+      <span className={clsx('ml-2 font-sans text-2xl', FontIceland.className)}>
         {label}
       </span>
     </div>

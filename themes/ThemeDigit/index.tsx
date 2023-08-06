@@ -7,7 +7,12 @@ import { useWs } from '@/hooks/useWs';
 import { keepDigit, keepIntNumberStringDigit } from '@/utils/math';
 import { useMemo, type FunctionComponent } from 'react';
 import Group from './_Group';
+import PercentageUnit from './_PercentageUnit';
 import TemperatureUnit from './_TemperatureUnit';
+
+const SVGProps = {
+  className: 'w-36 m-3',
+};
 
 const ThemeDigit: FunctionComponent = () => {
   const { data } = useWs();
@@ -47,7 +52,7 @@ const ThemeDigit: FunctionComponent = () => {
 
   return (
     <>
-      <div className="flex flex-row gap-3">
+      <div className="flex h-screen flex-row gap-3 bg-black p-3">
         {/* CPU */}
         <Group
           normaFactors={[
@@ -58,7 +63,7 @@ const ThemeDigit: FunctionComponent = () => {
             },
             {
               number: data?.SCPUUTI.value,
-              unit: '%',
+              unit: <PercentageUnit />,
               label: 'CPU Utilization',
             },
             {
@@ -82,7 +87,7 @@ const ThemeDigit: FunctionComponent = () => {
             unit: <TemperatureUnit />,
             label: '13th Gen Intel(R) Core(TM) i9-13900K',
           }}
-          logo={<IntelCoreI9SVG className="w-56" />}
+          logo={<IntelCoreI9SVG {...SVGProps} />}
         />
 
         {/* GPU */}
@@ -95,7 +100,7 @@ const ThemeDigit: FunctionComponent = () => {
             },
             {
               number: keepIntNumberStringDigit(data?.SGPU1UTI.value, 1),
-              unit: '%',
+              unit: <PercentageUnit />,
               label: 'GPU Utilization',
             },
             {
@@ -120,21 +125,22 @@ const ThemeDigit: FunctionComponent = () => {
             unit: <TemperatureUnit />,
             label: 'ROG Strix RTX4090 24G Gaming',
           }}
-          logo={<NvidiaRtxSVG className="w-56" />}
+          logo={<NvidiaRtxSVG {...SVGProps} />}
         />
 
         {/* mother board */}
         <Group
           normaFactors={[
             {
-              number: data?.SMEMUTI.value,
-              unit: '%',
-              label: 'MEM Utilization',
-              total: `${usedMemory.used} / ${usedMemory.total} Gb`,
+              number:
+                data?.SRTSSFPS.value === '0' ? 'N/A' : data?.SRTSSFPS.value,
+              label: 'RTSS FPS',
             },
             {
-              number: data?.SRTSSFPS.value,
-              label: 'RTSS FPS',
+              number: data?.SMEMUTI.value,
+              unit: <PercentageUnit />,
+              label: 'MEM Utilization',
+              total: `${usedMemory.used} / ${usedMemory.total} Gb`,
             },
             {
               number: data?.SNIC3ULRATE.value,
@@ -156,7 +162,7 @@ const ThemeDigit: FunctionComponent = () => {
             unit: <TemperatureUnit />,
             label: 'ROG Strix Z790-A Gaming WiFi',
           }}
-          logo={<RogSVG className="w-56" />}
+          logo={<RogSVG {...SVGProps} />}
         />
       </div>
     </>
