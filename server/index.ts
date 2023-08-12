@@ -3,9 +3,7 @@ import { randomUUID } from 'crypto';
 import { WebSocketServer } from 'ws';
 import { getSensorValues } from './aida64';
 
-const wss = new WebSocketServer({
-  port: 8080,
-});
+const wss = new WebSocketServer({ port: 8080 });
 
 logger.info('Server started on port 8080');
 
