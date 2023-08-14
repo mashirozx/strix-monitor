@@ -33,6 +33,7 @@
     "immer": "10.0.2",
     "modern-normalize": "2.0.0",
     "next": "13.4.12",
+    "next-pwa": "npm:@ducanh2912/next-pwa@9.4.0",
     "postcss": "8.4.27",
     "prettier": "2.8.8",
     "prettier-plugin-tailwindcss": "0.4.1",
