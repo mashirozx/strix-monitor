@@ -1,115 +1,115 @@
 declare type Aida64 = {
   SDATE: {
     label: 'Date';
-    value: '2023/8/6';
+    value: '2023/8/15';
   };
   STIME: {
     label: 'Time';
-    value: '12:26:27';
+    value: '18:38:36';
   };
   STIMENS: {
     label: 'Time (HH:MM)';
-    value: '12:26';
+    value: '18:38';
   };
   SUPTIME: {
     label: 'UpTime';
-    value: '00:47:31';
+    value: '00:03:03';
   };
   SCPUCLK: {
     label: 'CPU Clock';
-    value: '5500';
+    value: '5700';
   };
   'SCC-1-1': {
     label: 'CPU Core #1 Clock';
-    value: '5500';
+    value: '5700';
   };
   'SCC-1-2': {
     label: 'CPU Core #2 Clock';
-    value: '5500';
+    value: '5700';
   };
   'SCC-1-3': {
     label: 'CPU Core #3 Clock';
-    value: '5500';
+    value: '5700';
   };
   'SCC-1-4': {
     label: 'CPU Core #4 Clock';
-    value: '5500';
+    value: '5700';
   };
   'SCC-1-5': {
     label: 'CPU Core #5 Clock';
-    value: '5500';
+    value: '5800';
   };
   'SCC-1-6': {
     label: 'CPU Core #6 Clock';
-    value: '5500';
+    value: '5600';
   };
   'SCC-1-7': {
     label: 'CPU Core #7 Clock';
-    value: '5500';
+    value: '5700';
   };
   'SCC-1-8': {
     label: 'CPU Core #8 Clock';
-    value: '5500';
+    value: '5600';
   };
   'SCC-1-9': {
     label: 'CPU Core #9 Clock';
-    value: '4300';
+    value: '4600';
   };
   'SCC-1-10': {
     label: 'CPU Core #10 Clock';
-    value: '4300';
+    value: '4600';
   };
   'SCC-1-11': {
     label: 'CPU Core #11 Clock';
-    value: '4300';
+    value: '4500';
   };
   'SCC-1-12': {
     label: 'CPU Core #12 Clock';
-    value: '4300';
+    value: '4600';
   };
   'SCC-1-13': {
     label: 'CPU Core #13 Clock';
-    value: '4300';
+    value: '4600';
   };
   'SCC-1-14': {
     label: 'CPU Core #14 Clock';
-    value: '4300';
+    value: '4600';
   };
   'SCC-1-15': {
     label: 'CPU Core #15 Clock';
-    value: '4300';
+    value: '4600';
   };
   'SCC-1-16': {
     label: 'CPU Core #16 Clock';
-    value: '4300';
+    value: '4600';
   };
   'SCC-1-17': {
     label: 'CPU Core #17 Clock';
-    value: '4300';
+    value: '4600';
   };
   'SCC-1-18': {
     label: 'CPU Core #18 Clock';
-    value: '4300';
+    value: '4600';
   };
   'SCC-1-19': {
     label: 'CPU Core #19 Clock';
-    value: '4300';
+    value: '4600';
   };
   'SCC-1-20': {
     label: 'CPU Core #20 Clock';
-    value: '4300';
+    value: '4600';
   };
   'SCC-1-21': {
     label: 'CPU Core #21 Clock';
-    value: '4300';
+    value: '4600';
   };
   'SCC-1-22': {
     label: 'CPU Core #22 Clock';
-    value: '4300';
+    value: '4600';
   };
   'SCC-1-23': {
     label: 'CPU Core #23 Clock';
-    value: '4300';
+    value: '4600';
   };
   'SCC-1-24': {
     label: 'CPU Core #24 Clock';
@@ -117,7 +117,7 @@ declare type Aida64 = {
   };
   SCPUMUL: {
     label: 'CPU Multiplier';
-    value: '55';
+    value: '57';
   };
   SCPUFSB: {
     label: 'CPU FSB';
@@ -157,7 +157,7 @@ declare type Aida64 = {
   };
   SCPUUTI: {
     label: 'CPU Utilization';
-    value: '2';
+    value: '1';
   };
   SCPU1UTI: {
     label: 'CPU1 Utilization';
@@ -177,7 +177,7 @@ declare type Aida64 = {
   };
   SCPU5UTI: {
     label: 'CPU5 Utilization';
-    value: '7';
+    value: '35';
   };
   SCPU6UTI: {
     label: 'CPU6 Utilization';
@@ -185,7 +185,7 @@ declare type Aida64 = {
   };
   SCPU7UTI: {
     label: 'CPU7 Utilization';
-    value: '0';
+    value: '2';
   };
   SCPU8UTI: {
     label: 'CPU8 Utilization';
@@ -193,7 +193,7 @@ declare type Aida64 = {
   };
   SCPU9UTI: {
     label: 'CPU9 Utilization';
-    value: '64';
+    value: '0';
   };
   SCPU10UTI: {
     label: 'CPU10 Utilization';
@@ -225,7 +225,7 @@ declare type Aida64 = {
   };
   SCPU17UTI: {
     label: 'CPU17 Utilization';
-    value: '20';
+    value: '0';
   };
   SCPU18UTI: {
     label: 'CPU18 Utilization';
@@ -241,7 +241,7 @@ declare type Aida64 = {
   };
   SCPU21UTI: {
     label: 'CPU21 Utilization';
-    value: '25';
+    value: '0';
   };
   SCPU22UTI: {
     label: 'CPU22 Utilization';
@@ -257,7 +257,7 @@ declare type Aida64 = {
   };
   SCPU25UTI: {
     label: 'CPU25 Utilization';
-    value: '0';
+    value: '3';
   };
   SCPU26UTI: {
     label: 'CPU26 Utilization';
@@ -289,31 +289,31 @@ declare type Aida64 = {
   };
   SMEMUTI: {
     label: 'Memory Utilization';
-    value: '45';
+    value: '47';
   };
   SUSEDMEM: {
     label: 'Used Memory';
-    value: '14552';
+    value: '15140';
   };
   SFREEMEM: {
     label: 'Free Memory';
-    value: '17956';
+    value: '17368';
   };
   SVIRTMEMUTI: {
     label: 'Virtual Memory Utilization';
-    value: '53';
+    value: '51';
   };
   SUSEDVIRTMEM: {
     label: 'Used Virtual Memory';
-    value: '28819';
+    value: '27531';
   };
   SFREEVIRTMEM: {
     label: 'Free Virtual Memory';
-    value: '25193';
+    value: '26481';
   };
   SPROCESSES: {
     label: 'Processes';
-    value: '374';
+    value: '399';
   };
   SUSERS: {
     label: 'Users';
@@ -321,15 +321,27 @@ declare type Aida64 = {
   };
   SDRVCUTI: {
     label: 'Drive C: Utilization';
-    value: '71';
+    value: '66';
   };
   SDRVCUSEDSPC: {
     label: 'Drive C: Used Space';
-    value: '1349';
+    value: '1260';
   };
   SDRVCFREESPC: {
     label: 'Drive C: Free Space';
-    value: '558';
+    value: '647';
+  };
+  SDRVDUTI: {
+    label: 'Drive D: Utilization';
+    value: '42';
+  };
+  SDRVDUSEDSPC: {
+    label: 'Drive D: Used Space';
+    value: '396';
+  };
+  SDRVDFREESPC: {
+    label: 'Drive D: Free Space';
+    value: '536';
   };
   SSMASTA: {
     label: 'SMART Status';
@@ -345,7 +357,19 @@ declare type Aida64 = {
   };
   SDSK1WRITESPD: {
     label: 'Disk 1 Write Speed';
-    value: '0.4';
+    value: '4.4';
+  };
+  SDSK2ACT: {
+    label: 'Disk 2 Activity';
+    value: '0';
+  };
+  SDSK2READSPD: {
+    label: 'Disk 2 Read Speed';
+    value: '0.0';
+  };
+  SDSK2WRITESPD: {
+    label: 'Disk 2 Write Speed';
+    value: '0.0';
   };
   SGPU1CLK: {
     label: 'GPU Clock';
@@ -357,15 +381,15 @@ declare type Aida64 = {
   };
   SGPU1UTI: {
     label: 'GPU Utilization';
-    value: '8';
+    value: '13';
   };
   SGPU1MCUTI: {
     label: 'GPU MC Utilization';
-    value: '2';
+    value: '5';
   };
   SGPU1VEUTI: {
     label: 'GPU VE Utilization';
-    value: '8';
+    value: '22';
   };
   SGPU1BIUTI: {
     label: 'GPU BI Utilization';
@@ -373,11 +397,11 @@ declare type Aida64 = {
   };
   SGPU1USEDDEMEM: {
     label: 'GPU Used Dedicated Memory';
-    value: '4661';
+    value: '4478';
   };
   SGPU1USEDDYMEM: {
     label: 'GPU Used Dynamic Memory';
-    value: '119';
+    value: '190';
   };
   SGPU1BUSTYP: {
     label: 'GPU Bus Type';
@@ -389,15 +413,15 @@ declare type Aida64 = {
   };
   SVMEMUSAGE: {
     label: 'Video Memory Utilization';
-    value: '21';
+    value: '20';
   };
   SUSEDVMEM: {
     label: 'Used Video Memory';
-    value: '5049';
+    value: '4801';
   };
   SFREEVMEM: {
     label: 'Free Video Memory';
-    value: '19515';
+    value: '19763';
   };
   SSLISTA: {
     label: 'SLI Status';
@@ -405,7 +429,7 @@ declare type Aida64 = {
   };
   SPRIIPADDR: {
     label: 'Primary IP Address';
-    value: '172.19.176.1';
+    value: '172.25.16.1';
   };
   SEXTIPADDR: {
     label: 'External IP Address';
@@ -433,59 +457,63 @@ declare type Aida64 = {
   };
   SNIC2DLRATE: {
     label: 'NIC2 Download Rate';
-    value: '0.0';
+    value: '4.9';
   };
   SNIC2ULRATE: {
     label: 'NIC2 Upload Rate';
-    value: '0.0';
+    value: '1.3';
   };
   SNIC2TOTDL: {
     label: 'NIC2 Total Download';
-    value: '0.0';
+    value: '1.3';
   };
   SNIC2TOTUL: {
     label: 'NIC2 Total Upload';
-    value: '0.0';
+    value: '1.3';
   };
   SNIC2CONNSPD: {
     label: 'NIC2 Connection Speed';
-    value: '10000';
+    value: '100000';
   };
   SNIC3DLRATE: {
     label: 'NIC3 Download Rate';
-    value: '5.5';
+    value: '0.0';
   };
   SNIC3ULRATE: {
     label: 'NIC3 Upload Rate';
-    value: '2.4';
+    value: '0.0';
   };
   SNIC3TOTDL: {
     label: 'NIC3 Total Download';
-    value: '143.1';
+    value: '0.0';
   };
   SNIC3TOTUL: {
     label: 'NIC3 Total Upload';
-    value: '18.6';
+    value: '0.0';
   };
   SNIC3CONNSPD: {
     label: 'NIC3 Connection Speed';
-    value: '2500';
+    value: '10000';
   };
   SNIC4DLRATE: {
     label: 'NIC4 Download Rate';
-    value: '0.0';
+    value: '16.6';
   };
   SNIC4ULRATE: {
     label: 'NIC4 Upload Rate';
-    value: '0.0';
+    value: '3.9';
   };
   SNIC4TOTDL: {
     label: 'NIC4 Total Download';
-    value: '0.0';
+    value: '25.2';
   };
   SNIC4TOTUL: {
     label: 'NIC4 Total Upload';
-    value: '0.0';
+    value: '3.5';
+  };
+  SNIC4CONNSPD: {
+    label: 'NIC4 Connection Speed';
+    value: '2500';
   };
   SNIC5DLRATE: {
     label: 'NIC5 Download Rate';
@@ -503,6 +531,10 @@ declare type Aida64 = {
     label: 'NIC5 Total Upload';
     value: '0.0';
   };
+  SNIC5CONNSPD: {
+    label: 'NIC5 Connection Speed';
+    value: '0';
+  };
   SNIC6DLRATE: {
     label: 'NIC6 Download Rate';
     value: '0.0';
@@ -519,6 +551,22 @@ declare type Aida64 = {
     label: 'NIC6 Total Upload';
     value: '0.0';
   };
+  SNIC7DLRATE: {
+    label: 'NIC7 Download Rate';
+    value: '0.0';
+  };
+  SNIC7ULRATE: {
+    label: 'NIC7 Upload Rate';
+    value: '0.0';
+  };
+  SNIC7TOTDL: {
+    label: 'NIC7 Total Download';
+    value: '0.0';
+  };
+  SNIC7TOTUL: {
+    label: 'NIC7 Total Upload';
+    value: '0.0';
+  };
   SDESKRES: {
     label: 'Desktop Resolution';
     value: '3840 x 2160';
@@ -529,7 +577,7 @@ declare type Aida64 = {
   };
   SMASTVOL: {
     label: 'Master Volume';
-    value: '50';
+    value: '31';
   };
   SBATT: {
     label: 'Battery';
@@ -539,165 +587,185 @@ declare type Aida64 = {
     label: 'RTSS FPS';
     value: '0';
   };
+  TMOBO: {
+    label: 'Motherboard';
+    value: '31';
+  };
   TCPU: {
     label: 'CPU';
-    value: '40';
+    value: '50';
   };
   TCPUPKG: {
     label: 'CPU Package';
-    value: '56';
+    value: '61';
   };
   TCPUIAC: {
     label: 'CPU IA Cores';
-    value: '55';
+    value: '50';
   };
   TCPUGTC: {
     label: 'CPU GT Cores';
-    value: '40';
+    value: '39';
   };
   'TCC-1-1': {
     label: 'CPU Core #1';
-    value: '44';
+    value: '50';
   };
   'TCC-1-2': {
     label: 'CPU Core #2';
-    value: '42';
+    value: '46';
   };
   'TCC-1-3': {
     label: 'CPU Core #3';
-    value: '46';
+    value: '49';
   };
   'TCC-1-4': {
     label: 'CPU Core #4';
-    value: '51';
+    value: '45';
   };
   'TCC-1-5': {
     label: 'CPU Core #5';
-    value: '51';
+    value: '49';
   };
   'TCC-1-6': {
     label: 'CPU Core #6';
-    value: '51';
+    value: '43';
   };
   'TCC-1-7': {
     label: 'CPU Core #7';
-    value: '44';
+    value: '43';
   };
   'TCC-1-8': {
     label: 'CPU Core #8';
-    value: '46';
+    value: '41';
   };
   'TCC-1-9': {
     label: 'CPU Core #9';
-    value: '45';
+    value: '42';
   };
   'TCC-1-10': {
     label: 'CPU Core #10';
-    value: '45';
+    value: '42';
   };
   'TCC-1-11': {
     label: 'CPU Core #11';
-    value: '45';
+    value: '42';
   };
   'TCC-1-12': {
     label: 'CPU Core #12';
-    value: '45';
+    value: '42';
   };
   'TCC-1-13': {
     label: 'CPU Core #13';
-    value: '47';
+    value: '45';
   };
   'TCC-1-14': {
     label: 'CPU Core #14';
-    value: '47';
+    value: '45';
   };
   'TCC-1-15': {
     label: 'CPU Core #15';
-    value: '47';
+    value: '45';
   };
   'TCC-1-16': {
     label: 'CPU Core #16';
-    value: '47';
+    value: '45';
   };
   'TCC-1-17': {
     label: 'CPU Core #17';
-    value: '42';
+    value: '46';
   };
   'TCC-1-18': {
     label: 'CPU Core #18';
-    value: '42';
+    value: '46';
   };
   'TCC-1-19': {
     label: 'CPU Core #19';
-    value: '42';
+    value: '46';
   };
   'TCC-1-20': {
     label: 'CPU Core #20';
-    value: '42';
+    value: '46';
   };
   'TCC-1-21': {
     label: 'CPU Core #21';
-    value: '40';
+    value: '39';
   };
   'TCC-1-22': {
     label: 'CPU Core #22';
-    value: '40';
+    value: '39';
   };
   'TCC-1-23': {
     label: 'CPU Core #23';
-    value: '40';
+    value: '39';
   };
   'TCC-1-24': {
     label: 'CPU Core #24';
-    value: '44';
+    value: '39';
+  };
+  TPCH: {
+    label: 'PCH';
+    value: '54';
+  };
+  TVRM: {
+    label: 'VRM';
+    value: '45';
   };
   TGPU1: {
     label: 'GPU';
-    value: '36';
+    value: '47';
   };
   TGPU1HOT: {
     label: 'GPU Hotspot';
-    value: '44';
+    value: '57';
   };
   TGPU1MEM: {
     label: 'GPU Memory';
-    value: '42';
+    value: '54';
+  };
+  TDIMMTS2: {
+    label: 'DIMM2';
+    value: '41';
+  };
+  TDIMMTS4: {
+    label: 'DIMM4';
+    value: '40';
   };
   THDD1: {
+    label: 'Samsung SSD 980 1TB';
+    value: '38';
+  };
+  THDD2: {
     label: 'Predator SSD GM7 M.2 2TB';
     value: '44';
   };
-  THDD1TS2: {
+  THDD2TS2: {
     label: 'Predator SSD GM7 M.2 2TB #2';
-    value: '41';
+    value: '39';
   };
   FCPU: {
     label: 'CPU';
-    value: '915';
-  };
-  FAIOPUMP: {
-    label: 'AIO Pump';
-    value: '2980';
+    value: '1355';
   };
   FGPU1: {
     label: 'GPU';
-    value: '1001';
+    value: '0';
   };
   FGPU1GPU2: {
     label: 'GPU2';
-    value: '1001';
+    value: '0';
   };
   DGPU1: {
     label: 'GPU';
-    value: '30';
+    value: '0';
   };
   DGPU1GPU2: {
     label: 'GPU2';
-    value: '30';
+    value: '0';
   };
   VCPU: {
     label: 'CPU Core';
-    value: '1.323';
+    value: '1.465';
   };
   V33V: {
     label: '+3.3 V';
@@ -721,11 +789,11 @@ declare type Aida64 = {
   };
   VCPUL2: {
     label: 'CPU L2';
-    value: '0.080';
+    value: '0.000';
   };
   VVCCINAUX: {
     label: 'VCCIN Aux';
-    value: '1.776';
+    value: '1.824';
   };
   VVCCSA: {
     label: 'VCCSA';
@@ -733,70 +801,50 @@ declare type Aida64 = {
   };
   VGPU1: {
     label: 'GPU Core';
-    value: '0.945';
-  };
-  PCPUPKG: {
-    label: 'CPU Package';
-    value: '88.34';
-  };
-  PCPUIAC: {
-    label: 'CPU IA Cores';
-    value: '77.77';
-  };
-  PCPUGTC: {
-    label: 'CPU GT Cores';
-    value: '10.57';
-  };
-  PGPU1: {
-    label: 'GPU';
-    value: '57.73';
-  };
-  PGPU1TDPP: {
-    label: 'GPU TDP%';
-    value: '13';
-  };
-  SUPTIMENS: {
-    label: 'UpTime (HH:MM)';
-    value: '00:47';
-  };
-  VCPUVID: {
-    label: 'CPU VID';
-    value: '1.353';
-  };
-  TMOBO: {
-    label: 'Motherboard';
-    value: '31';
-  };
-  TPCH: {
-    label: 'PCH';
-    value: '52';
-  };
-  TVRM: {
-    label: 'VRM';
-    value: '50';
-  };
-  TDIMMTS2: {
-    label: 'DIMM2';
-    value: '43';
-  };
-  TDIMMTS4: {
-    label: 'DIMM4';
-    value: '42';
-  };
-  FCPUOPT: {
-    label: 'CPU OPT';
-    value: '0';
+    value: '0.950';
   };
   CCPU: {
     label: 'CPU';
-    value: '88.00';
+    value: '246.00';
   };
   PCPU: {
     label: 'CPU';
-    value: '116.44';
+    value: '360.44';
   };
-  SNIC6CONNSPD: {
-    label: 'NIC6 Connection Speed';
+  PCPUPKG: {
+    label: 'CPU Package';
+    value: '108.65';
+  };
+  PCPUIAC: {
+    label: 'CPU IA Cores';
+    value: '98.15';
+  };
+  PGPU1: {
+    label: 'GPU';
+    value: '75.18';
+  };
+  PGPU1TDPP: {
+    label: 'GPU TDP%';
+    value: '17';
+  };
+  SUPTIMENS: {
+    label: 'UpTime (HH:MM)';
+    value: '00:03';
+  };
+  VCPUVID: {
+    label: 'CPU VID';
+    value: '1.443';
+  };
+  PCPUGTC: {
+    label: 'CPU GT Cores';
+    value: '10.50';
+  };
+  SNIC7CONNSPD: {
+    label: 'NIC7 Connection Speed';
     value: '100';
+  };
+  FAIOPUMP: {
+    label: 'AIO Pump';
+    value: '1557';
   };
 };
